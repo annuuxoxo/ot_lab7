@@ -1,0 +1,120 @@
+  20/90 jobs  158s
+/Users/anushreeupasham/Desktop/ot_lab7/algorithms/alg15_nsga3.py:46: RuntimeWarning: divide by zero encountered in divide
+  icpt = 1.0 / a
+/Users/anushreeupasham/Desktop/ot_lab7/algorithms/alg15_nsga3.py:46: RuntimeWarning: divide by zero encountered in divide
+  icpt = 1.0 / a
+/Users/anushreeupasham/Desktop/ot_lab7/algorithms/alg15_nsga3.py:46: RuntimeWarning: divide by zero encountered in divide
+  icpt = 1.0 / a
+/Users/anushreeupasham/Desktop/ot_lab7/algorithms/alg15_nsga3.py:46: RuntimeWarning: divide by zero encountered in divide
+  icpt = 1.0 / a
+/Users/anushreeupasham/Desktop/ot_lab7/algorithms/alg15_nsga3.py:46: RuntimeWarning: divide by zero encountered in divide
+  icpt = 1.0 / a
+/Users/anushreeupasham/Desktop/ot_lab7/algorithms/alg15_nsga3.py:46: RuntimeWarning: divide by zero encountered in divide
+  icpt = 1.0 / a
+  40/90 jobs  163s
+  60/90 jobs  176s
+  80/90 jobs  180s
+/Users/anushreeupasham/Desktop/ot_lab7/experiments/run_taskC.py:46: RuntimeWarning: Mean of empty slice
+  igd_mean=float(np.nanmean([r["igd"] for r in rs])), igd_std=float(np.nanstd([r["igd"] for r in rs])),
+/Users/anushreeupasham/miniconda3/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/anushreeupasham/Desktop/ot_lab7/experiments/run_taskC.py:47: RuntimeWarning: Mean of empty slice
+  n_mean=float(np.mean([r["n"] for r in rs])), spacing_mean=float(np.nanmean([r["spacing"] for r in rs])),
+{
+ "3": {
+  "z_scale=1.0": {
+   "hv_mean": 0.0,
+   "hv_std": 0.0,
+   "igd_mean": NaN,
+   "igd_std": NaN,
+   "n_mean": 0.0,
+   "spacing_mean": NaN,
+   "mid_mean": 0.0,
+   "seconds": 59.213016629219055
+  },
+  "z_scale=1.3": {
+   "hv_mean": 0.5050898639597279,
+   "hv_std": 0.00023461359457120268,
+   "igd_mean": 0.03370177437917075,
+   "igd_std": 0.00038044169577639947,
+   "n_mean": 16.1,
+   "spacing_mean": 0.055016424575608014,
+   "mid_mean": 5.0,
+   "seconds": 51.13234431743622
+  },
+  "z_scale=1.8": {
+   "hv_mean": 0.3598627796450429,
+   "hv_std": 0.03612652763086955,
+   "igd_mean": 0.2014770559532729,
+   "igd_std": 0.03175464649158648,
+   "n_mean": 10.2,
+   "spacing_mean": 0.09788565382673331,
+   "mid_mean": 0.0,
+   "seconds": 42.75262038707733
+  }
+ },
+ "15": {
+  "p=2": {
+   "hv_mean": 0.6859274825700004,
+   "hv_std": 0.07987890740911473,
+   "igd_mean": 0.5393341876985603,
+   "igd_std": 0.04083824338417793,
+   "n_mean": 16.0,
+   "spacing_mean": 0.13894640087557497,
+   "mid_mean": NaN,
+   "seconds": 1.123559331893921
+  },
+  "p=4": {
+   "hv_mean": 0.5299487838150003,
+   "hv_std": 0.09510192769863032,
+   "igd_mean": 0.41453088050489184,
+   "igd_std": 0.032978844512438016,
+   "n_mean": 72.0,
+   "spacing_mean": 0.1319425826712089,
+   "mid_mean": NaN,
+   "seconds": 1.9025091648101806
+  },
+  "p=6": {
+   "hv_mean": 0.3519745447350001,
+   "hv_std": 0.06268755183994015,
+   "igd_mean": 0.46296904401379957,
+   "igd_std": 0.024760603714963823,
+   "n_mean": 212.0,
+   "spacing_mean": 0.09186473155573378,
+   "mid_mean": NaN,
+   "seconds": 4.608429002761841
+  }
+ },
+ "27": {
+  "F=0.2": {
+   "hv_mean": 0.10866570311196308,
+   "hv_std": 0.003620510550173067,
+   "igd_mean": 0.6100591285176193,
+   "igd_std": 0.0014590114522177902,
+   "n_mean": 1.0,
+   "spacing_mean": NaN,
+   "mid_mean": 0.0,
+   "seconds": 1.0094091653823853
+  },
+  "F=0.5": {
+   "hv_mean": 0.10970194827484718,
+   "hv_std": 0.0002625577038598597,
+   "igd_mean": 0.609637387131913,
+   "igd_std": 9.979717254431904e-05,
+   "n_mean": 1.0,
+   "spacing_mean": NaN,
+   "mid_mean": 0.0,
+   "seconds": 0.985031008720398
+  },
+  "F=0.9": {
+   "hv_mean": 0.11106170106945845,
+   "hv_std": 0.0033121984704992716,
+   "igd_mean": 0.5895673657658744,
+   "igd_std": 0.05991917188360244,
+   "n_mean": 1.1,
+   "spacing_mean": NaN,
+   "mid_mean": 0.0,
+   "seconds": 0.975942325592041
+  }
+ }
+}

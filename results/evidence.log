@@ -1,0 +1,8 @@
+running classical
+running investigations
+running evolutionary
+/Users/anushreeupasham/Desktop/ot_lab7/experiments/run_evidence.py:36: RuntimeWarning: Mean of empty slice
+  v = np.array([r[k] for r in rs], float); return float(np.nanmean(v))
+running p9
+evidence keys: 68
+ALLDONE
